@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/socket_server_title"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.8"
+        android:gravity="center"
+        android:text="@string/socket_server"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_margin="10sp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_server_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start" />
+
+        <Space
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_server_send_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text="@string/send_all" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.35"
+        android:layout_margin="10sp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_server"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/서버상태" />
+
+        <TextView
+            android:id="@+id/text_server_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/off" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.35"
+        android:layout_margin="10sp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/연결된셀의갯수_" />
+
+        <TextView
+            android:id="@+id/text_server_cell_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/_0개" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/socket_server_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="3"
+        android:layout_margin="10sp"
+        />
+
+</LinearLayout>

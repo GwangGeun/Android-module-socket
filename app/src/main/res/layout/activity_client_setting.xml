@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="@string/socket_client_setting" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_client_setting_ip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="25sp"
+            android:text="@string/_192_168_0_2"
+            android:hint="@string/server_ip_enter"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/edit_client_setting_port"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginBottom="20sp"
+            android:inputType="number"
+            android:text="@string/_8888"
+            android:hint="@string/port"
+            android:importantForAutofill="no" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_client_setting_back"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25sp"
+            android:text="@string/back" />
+
+        <Button
+            android:id="@+id/btn_client_setting_next"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="@string/next" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">JavaSocketTest</string>
+    <string name="ohcoach">ohcoach</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="socket_client">Socket Client</string>
+    <string name="socket_server">Socket Server</string>
+    <string name="submit">Submit</string>
+    <string name="내용작성">내용 작성</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="protocol_list">Protocol List</string>
+    <string name="wifi_ap_list">Wifi Ap List</string>
+    <string name="ip">연결할 서버의 ip 를 입력해주세요.</string>
+    <string name="서버상태">서버 상태 :</string>
+    <string name="off">OFF</string>
+    <string name="데이터수신상태">데이터 수신 상태 :</string>
+    <string name="대기중">대기 중</string>
+    <string name="연결된셀의갯수">연결 된 셀의 갯수</string>
+    <string name="연결된셀갯수">연결된셀의갯수 :</string>
+    <string name="_0개">0 개</string>
+    <string name="연결된셀의갯수_">연결 된 셀의 갯수 :</string>
+    <string name="HOSTIP_">Host IP :</string>
+    <string name="메세지전송">메세지 전송</string>
+    <string name="연결끊기">연결 끊기</string>
+    <string name="message">message</string>
+    <string name="닫기">닫기</string>
+    <string name="socket_client_setting">Socket Client Setting</string>
+    <string name="server_ip_enter">Server IP 를 입력해주세요</string>
+    <string name="port">port 를 입력해주세요</string>
+    <string name="_8888">8888</string>
+    <string name="_192_168_0_2">192.168.0.2</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="send_all">Send All</string>
+</resources>
